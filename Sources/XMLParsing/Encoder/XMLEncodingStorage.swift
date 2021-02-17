@@ -8,6 +8,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 // MARK: - Encoding Storage and Containers
 

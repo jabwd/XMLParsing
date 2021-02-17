@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 internal struct _XMLUnkeyedDecodingContainer : UnkeyedDecodingContainer {
     // MARK: Properties
